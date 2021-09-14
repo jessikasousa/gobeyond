@@ -1,0 +1,64 @@
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 636px){
+    header{
+        margin: 0;
+        padding: 5%;
+    }
+
+    header .nav a{
+        padding: 0;
+    }
+
+    .content{
+        margin: 5%;
+    }
+
+    .content .info h2{
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .content .info h2 span{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .form .input{ 
+        max-width: 100%;
+    }
+
+    section {
+        background-position: inherit;
+        background-size: auto;
+    }
+
+    .footer{
+        margin: 5%;
+    }
+}
+
+@media  (max-width: 775px){
+    header .nav a{
+        display: flex;
+        flex-direction: column;
+    }
+}
